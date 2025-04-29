@@ -1,6 +1,6 @@
 import { describe, test } from 'node:test';
 
-import { Quantity } from '../domain/value-objects/Quantity.ts';
+import { Quantity } from '../domain/value-objects/Quantity';
 import assert from 'node:assert/strict';
 
 describe('Quantity', () => {
