@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "simulate": "ts-node ./src/simulation/place-order-simulation.ts",
     "build": "tsc",
     "test": "node --test"
   },
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/ktfth/order-manager#readme",
   "devDependencies": {
     "@types/node": "^22.15.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
