@@ -38,4 +38,8 @@ export class OrderAggregate {
     let totalValue = this.items.reduce((sum, item) => sum + item.getTotalPrice().getValue(), 0);
     return Price.create(totalValue);
   }
+
+  public addItem(item: OrderItem): void {
+    this.items.push(item);
+  }  
 }
