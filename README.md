@@ -24,6 +24,12 @@ And test at all.
 node --test
 ```
 
+Or just run as HTTP server:
+
+```sh
+npm run start
+```
+
 ## Development
 
 For development mode, you can install dependencies:
