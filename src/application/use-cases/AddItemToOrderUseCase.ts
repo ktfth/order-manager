@@ -1,9 +1,9 @@
-import { OrderId, ProductId } from "../../shared/types/BrandedTypes.js";
+import { OrderId, ProductId } from "../../shared/types/BrandedTypes";
 
-import { OrderItem } from "../../domain/entities/OrderItem.js";
-import { OrderRepository } from "../../domain/repositories/OrderRepository.js";
-import { ProductRepository } from "../../domain/repositories/ProductRepository.js";
-import { Quantity } from "../../domain/value-objects/Quantity.js";
+import { OrderItem } from "../../domain/entities/OrderItem";
+import { OrderRepository } from "../../domain/repositories/OrderRepository";
+import { ProductRepository } from "../../domain/repositories/ProductRepository";
+import { Quantity } from "../../domain/value-objects/Quantity";
 
 type AddItemToOrderInput = {
   orderId: OrderId;

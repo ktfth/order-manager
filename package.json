@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "ts-node ./src/api/http-server.ts",
+    "start:dev": "ts-node-dev --respawn --transpile-only ./src/api/http-server.ts",
+    "start:dev:debug": "ts-node-dev --respawn --transpile-only --inspect ./src/api/http-server.ts",
     "simulate": "ts-node ./src/simulation/place-order-simulation.ts",
     "build": "tsc",
     "test": "node --test"
